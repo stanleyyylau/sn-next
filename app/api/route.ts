@@ -1,5 +1,5 @@
 import { db } from '@/db'; // 假设你有一个 db 实例
-import { eq, and, count } from 'drizzle-orm';
+import { count } from 'drizzle-orm';
 import {userTable} from "@/schema";
 
 export async function GET(request: Request) {
